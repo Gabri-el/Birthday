@@ -1,0 +1,112 @@
+body{
+    /* text-align: center; */
+    font-family: "Happy Monkey", system-ui;
+    background: linear-gradient(gray,yellow);
+    color:white;
+    
+    /* display: flex;
+    align-items: center;
+    flex-direction: column; */
+  
+    /* justify-content: center; */
+
+}
+#header{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+}
+#birthday-picture{
+    border-radius: 50%;
+    width: 300px;
+    border: 2px solid rgb(92, 78, 244);
+}
+
+#bd-date{
+    background-color: blue;
+    padding:5px 10px;
+    border-radius: 5px;
+}
+#bd-year{
+    background-color: blue;
+    padding:5px 10px;
+    border-radius:5px;
+}
+.gift-image{
+    width:400px;
+    height: 400px;
+    background-size: cover;
+    border:6px solid blue;
+    border-radius: 5px;
+    background-image: url("image/gift-cover.jpg");
+    
+}
+.gift-image:hover{
+    background: url("image/happy.gif");
+}
+
+.gift2-image{
+    width:400px;
+    height: 400px;
+    background-size: cover;
+    border:6px solid blue;
+    border-radius: 5px;
+    background-image: url("image/gift-cover.jpg");
+    
+}
+.gift2-image:hover{
+    background: url("image/hot.gif");
+}
+.gift3-image{
+    width:400px;
+    height: 400px;
+    background-size: cover;
+    border:6px solid blue;
+    border-radius: 5px;
+    background-image: url("image/gift-cover.jpg");
+    
+}
+.gift3-image:hover{
+    background: url("image/badass.gif");
+}
+.gift4-image{
+    width:400px;
+    height: 400px;
+    background-size: cover;
+    border:6px solid blue;
+    border-radius: 5px;
+    background-image: url("image/gift-cover.jpg");
+    
+}
+.gift4-image:hover{
+    background: url("image/genius.gif");
+}
+
+#gift1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#gift1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.gift5-image{
+    width:400px;
+    height: 400px;
+    background-size: cover;
+    border:6px solid blue;
+    border-radius: 5px;
+    background-image: url("image/gift-cover.jpg");
+    
+}
+.gift5-image:hover{
+    background: url("image/cheers.gif");
+}
+#gift-cheers{
+    height: 200px;
+}
